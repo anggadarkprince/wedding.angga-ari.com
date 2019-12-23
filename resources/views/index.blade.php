@@ -14,6 +14,15 @@
 
     <link rel="icon" href="<?= url('images/icon.png') ?>" type="image/x-icon">
     <link href="{{ url('/css/app.css') }}" rel="stylesheet">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74498739-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-74498739-3');
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
