@@ -1,6 +1,10 @@
 /vendor
 /.idea
 /.vscode
+node_modules
 Homestead.json
 Homestead.yaml
 .env
+public/*
+!public/index.php
+!public/.htaccess

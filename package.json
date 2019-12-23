@@ -1,0 +1,57 @@
+{
+  "name": "wedding.angga-ari.com",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)\r [![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)\r [![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)\r [![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)\r [![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anggadarkprince/wedding.angga-ari.com.git"
+  },
+  "keywords": [
+    "wedding",
+    "engagement",
+    "landing-page"
+  ],
+  "author": "Angga Ari Wijaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anggadarkprince/wedding.angga-ari.com/issues"
+  },
+  "homepage": "https://github.com/anggadarkprince/wedding.angga-ari.com#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.1",
+    "cross-env": "^6.0.3",
+    "jquery": "^3.4.1",
+    "jquery-migrate": "^3.0.1",
+    "jquery-waypoints": "^2.0.5",
+    "jquery.easing": "^1.4.1",
+    "jquery.mb.ytplayer": "^3.2.10",
+    "jquery.stellar": "^0.6.2",
+    "laravel-mix": "^5.0.1",
+    "magnific-popup": "^1.1.0",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.16.0",
+    "scrollax": "^1.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "resolve-url-loader": "^3.1.1",
+    "sass": "^1.24.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

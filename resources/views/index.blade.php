@@ -11,19 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,400i,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('css/open-iconic-bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ url('css/animate.css') }}">
 
-    <link rel="stylesheet" href="{{ url('css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ url('css/owl.theme.default.min.css') }}">
-    <link rel="stylesheet" href="{{ url('css/magnific-popup.css') }}">
-
-    <link rel="stylesheet" href="{{ url('css/aos.css') }}">
-    <link rel="stylesheet" href="{{ url('css/ionicons.min.css') }}">
-
-    <link rel="stylesheet" href="{{ url('css/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ url('css/icomoon.css') }}">
-    <link rel="stylesheet" href="{{ url('css/style.css') }}">
+    <link href="{{ url('/css/app.css') }}" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -51,7 +40,7 @@
 
     <section id="home" class="video-hero js-fullheight" style="height: 700px; background-image: url(images/bg.jpg); background-size:cover; background-position: top center;" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
-        <a class="player" data-property="{videoURL:'/video/engagement.mp4',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"></a>
+        <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=M3Zn_soEbpQ',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"></a>
         <div class="container">
             <div class="row js-fullheight justify-content-center d-flex align-items-center">
                 <div class="col-md-12">
@@ -628,9 +617,9 @@
                         <h2 class="ftco-heading-2">Angga & Diana</h2>
                         <p>Our greatest moment in our history as human who falling in love each other.</p>
                         <ul class="ftco-footer-social list-unstyled mt-5">
-                            <li class="ftco-animate"><a href="https://twitter.com/anggadarkprince"><span class="icon-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="https://facebook.com/anggadarkprince"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="https://twitter.com/diana.wulanda"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://twitter.com/anggadarkprince" target="_blank"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://facebook.com/anggadarkprince" target="_blank"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://instagram.com/diana.wulanda" target="_blank"><span class="icon-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -715,23 +704,7 @@
         </svg>
     </div>
 
-
-    <script src="{{ url('js/jquery.min.js') }}"></script>
-    <script src="{{ url('js/jquery-migrate-3.0.1.min.js') }}"></script>
-    <script src="{{ url('js/popper.min.js') }}"></script>
-    <script src="{{ url('js/bootstrap.min.js') }}"></script>
-    <script src="{{ url('js/jquery.easing.1.3.js') }}"></script>
-    <script src="{{ url('js/jquery.waypoints.min.js') }}"></script>
-    <script src="{{ url('js/jquery.stellar.min.js') }}"></script>
-    <script src="{{ url('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ url('js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ url('js/aos.js') }}"></script>
-    <script src="{{ url('js/jquery.animateNumber.min.js') }}"></script>
-    <script src="{{ url('js/jquery.mb.YTPlayer.min.js') }}"></script>
-    <script src="{{ url('js/scrollax.min.js') }}"></script>
-
-    <script src="{{ url('js/app.js') }}"></script>
-
+    <script src="{{ url('/js/app.js') }}"></script>
 </body>
 
 </html>

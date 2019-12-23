@@ -270,34 +270,5 @@ AOS.init({
         makeTimer();
     }, 1000);
 
-
-    // rsvp form submission
-    var rsvpForm = $('.rsvp-form');
-
-    rsvpForm.on('submit', function(e) {
-        e.preventDefault();
-
-        rsvpForm.find('[type="submit"]').val('Submitting...');
-        $.post('/rsvp', rsvpForm.serialize())
-            .done(function (result) {
-                rsvpForm.find('[type="submit"]').val('I am attending');
-                rsvpForm.find('.alert').show();
-                rsvpForm.find('.alert-message').text(result.message);
-                if(result.status) {
-                    rsvpForm[0].reset();
-                    rsvpForm.find('alert').removeClass('alert-danger').addClass('alert-success');
-                } else {
-                    rsvpForm.find('alert').addClass('alert-danger').removeClass('alert-success');
-                }
-                $('html, body').animate({
-                    scrollTop: rsvpForm.offset().top - 70
-                }, 300);
-            })
-            .fail(function (error) {
-                rsvpForm.find('[type="submit"]').val('I am attending');
-                rsvpForm.find('.alert-message').text(error.message);
-            });
-    });
-
 })(jQuery);
 
