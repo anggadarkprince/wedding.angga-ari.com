@@ -643,12 +643,12 @@
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Resources</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#"><span class="ion-ios-arrow-forward mr-2"></span>Organizer</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-forward mr-2"></span>Venue</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-forward mr-2"></span>Wedding Ceremony</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-forward mr-2"></span>Accommodation</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-forward mr-2"></span>Photograph</a></li>
-                            <li><a href="#"><span class="ion-ios-arrow-forward mr-2"></span>Designer</a></li>
+                            <li><a href="https://g.page/BUSANAWEDDING?share"><span class="ion-ios-arrow-forward mr-2"></span>Organizer</a></li>
+                            <li><a href="https://g.page/BUSANAWEDDING?share"><span class="ion-ios-arrow-forward mr-2"></span>Venue</a></li>
+                            <li><a href="https://g.page/BUSANAWEDDING?share"><span class="ion-ios-arrow-forward mr-2"></span>Wedding Ceremony</a></li>
+                            <li><a href="https://g.page/BUSANAWEDDING?share"><span class="ion-ios-arrow-forward mr-2"></span>Accommodation</a></li>
+                            <li><a href="https://g.page/BUSANAWEDDING?share"><span class="ion-ios-arrow-forward mr-2"></span>Photograph</a></li>
+                            <li><a href="https://g.page/BUSANAWEDDING?share"><span class="ion-ios-arrow-forward mr-2"></span>Designer</a></li>
                         </ul>
                     </div>
                 </div>
