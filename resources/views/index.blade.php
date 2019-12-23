@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,400i,700&display=swap" rel="stylesheet">
 
+    <link rel="icon" href="<?= url('images/icon.png') ?>" type="image/x-icon">
     <link href="{{ url('/css/app.css') }}" rel="stylesheet">
 </head>
 
