@@ -531,6 +531,62 @@
             </div>
             <div class="row">
                 <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-1.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-1.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-2.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-2.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-3.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-3.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-4.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-4.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-5.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-5.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-6.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-6.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-7.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-7.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
+                    <a href="images/gallery/prewedding-8.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-8.jpg);">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="ion-ios-image"></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 ftco-animate">
                     <a href="images/gallery/gallery-1.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-1.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
