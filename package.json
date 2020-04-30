@@ -34,7 +34,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "cross-env": "^6.0.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-migrate": "^3.1.0",
     "jquery-waypoints": "^2.0.5",
     "jquery.easing": "^1.4.1",
