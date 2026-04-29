@@ -12,8 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,400i,700&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="<?= url('images/icon.png') ?>" type="image/x-icon">
-    <link href="{{ url('/css/app.css') }}" rel="stylesheet">
+    <link rel="icon" href="<?= url('build/images/icon.png') ?>" type="image/x-icon">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74498739-3"></script>
     <script>
@@ -48,7 +47,7 @@
         </div>
     </nav>
 
-    <section id="home" class="video-hero js-fullheight" style="height: 700px; background-image: url(images/bg.jpg); background-size:cover; background-position: top center;" data-stellar-background-ratio="0.5">
+    <section id="home" class="video-hero js-fullheight" style="height: 700px; background-image: url(build/images/bg.jpg); background-size:cover; background-position: top center;" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=M3Zn_soEbpQ',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default',optimizeDisplay:true}"></a>
         <div class="container">
@@ -79,7 +78,7 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="col-md-6 d-flex">
-                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about_1.jpg);">
+                    <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(build/images/about_1.jpg);">
                     </div>
                 </div>
                 <div class="col-md-6 py-md-3 text">
@@ -98,7 +97,7 @@
 
                             <a href="https://goo.gl/maps/R6y9XLsUe5Jcab3QA" class="mr-3" target="_blank">
                                 <div class="d-flex flex-row align-items-center mb-4">
-                                    <img src="images/qr-code-direction.png" class="img-fluid ml-3 mr-4" style="border: 1px solid rgba(0, 0, 0, 0.1); max-width: 120px; opacity: .9" alt="QR Code">
+                                    <img src="build/images/qr-code-direction.png" class="img-fluid ml-3 mr-4" style="border: 1px solid rgba(0, 0, 0, 0.1); max-width: 120px; opacity: .9" alt="QR Code">
                                     <p class="text-left text-dark" style="line-height: 1.3">
                                         <strong>Simo Pomahan Baru Gg. 14A No. 4</strong><br>
                                         Simomulyo Baru - Sukomanunggal<br>
@@ -119,8 +118,8 @@
     </section>
 
     <section class="ftco-section bg-section">
-        <div class="overlay-top" style="background-image: url(images/top-bg.jpg);"></div>
-        <div class="overlay-bottom" style="background-image: url(images/bottom-bg.jpg);"></div>
+        <div class="overlay-top" style="background-image: url(build/images/top-bg.jpg);"></div>
+        <div class="overlay-bottom" style="background-image: url(build/images/bottom-bg.jpg);"></div>
         <div class="container">
             <div class="row justify-content-center pb-5">
                 <div class="col-md-12 text-center heading-section ftco-animate">
@@ -132,7 +131,7 @@
                     <div class="row">
                         <div class="col-md-6 text-center d-flex align-items-stretch">
                             <div class="bride-groom ftco-animate">
-                                <div class="img" style="background-image: url(images/groom.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/groom.jpg);"></div>
                                 <div class="text mt-4 px-4">
                                     <h2 class="mb-0 text-primary">Angga Ari Wijaya</h2>
                                     <small class="mb-3" style="opacity: .5">Youngest son of Mr. Mukiyar and Mrs. Muliana</small>
@@ -146,7 +145,7 @@
                         </div>
                         <div class="col-md-6 text-center d-flex align-items-stretch">
                             <div class="bride-groom ftco-animate">
-                                <div class="img" style="background-image: url(images/bride.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/bride.jpg);"></div>
                                 <div class="text mt-4 px-4">
                                     <h2 class="mb-0 text-primary">Diana Eka Wulandari</h2>
                                     <small class="mb-3" style="opacity: .5">Eldest doughter of Mr. Masduki Z. and Mrs. Mahmudah</small>
@@ -175,7 +174,7 @@
                 <div class="col-md-12">
                     <ul class="timeline animate-box">
                         <li class="animate-box">
-                            <div class="timeline-badge" style="background-image:url(images/timeline/couple-1.jpg);"></div>
+                            <div class="timeline-badge" style="background-image:url(build/images/timeline/couple-1.jpg);"></div>
                             <div class="timeline-panel ftco-animate text-md-right">
                                 <div class="overlay"></div>
                                 <div class="timeline-heading">
@@ -191,7 +190,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted animate-box">
-                            <div class="timeline-badge" style="background-image:url(images/timeline/couple-2.jpg);"></div>
+                            <div class="timeline-badge" style="background-image:url(build/images/timeline/couple-2.jpg);"></div>
                             <div class="timeline-panel ftco-animate">
                                 <div class="overlay overlay-2"></div>
                                 <div class="timeline-heading">
@@ -207,7 +206,7 @@
                             </div>
                         </li>
                         <li class="animate-box">
-                            <div class="timeline-badge" style="background-image:url(images/timeline/couple-3.jpg);"></div>
+                            <div class="timeline-badge" style="background-image:url(build/images/timeline/couple-3.jpg);"></div>
                             <div class="timeline-panel ftco-animate text-md-right">
                                 <div class="overlay"></div>
                                 <div class="timeline-heading">
@@ -223,7 +222,7 @@
                             </div>
                         </li>
                         <li class="timeline-inverted animate-box">
-                            <div class="timeline-badge" style="background-image:url(images/timeline/couple-4.jpg);"></div>
+                            <div class="timeline-badge" style="background-image:url(build/images/timeline/couple-4.jpg);"></div>
                             <div class="timeline-panel ftco-animate">
                                 <div class="overlay overlay-2"></div>
                                 <div class="timeline-heading">
@@ -241,7 +240,7 @@
                             </div>
                         </li>
                         <li class="animate-box">
-                            <div class="timeline-badge" style="background-image:url(images/timeline/couple-5.jpg);"></div>
+                            <div class="timeline-badge" style="background-image:url(build/images/timeline/couple-5.jpg);"></div>
                             <div class="timeline-panel ftco-animate text-md-right">
                                 <div class="overlay"></div>
                                 <div class="timeline-heading">
@@ -280,7 +279,7 @@
                                         I meant to be yours.
                                     </p>
                                     <div class="d-flex align-items-center">
-                                        <div class="user-img" style="background-image: url(images/family/diana.jpg)"></div>
+                                        <div class="user-img" style="background-image: url(build/images/family/diana.jpg)"></div>
                                         <div class="pl-3">
                                             <p class="name">Diana Eka Wulandari</p>
                                             <span class="position">Bride</span>
@@ -297,7 +296,7 @@
                                         I can't wait living with you in any condition.
                                     </p>
                                     <div class="d-flex align-items-center">
-                                        <div class="user-img" style="background-image: url(images/family/angga.jpg)"></div>
+                                        <div class="user-img" style="background-image: url(build/images/family/angga.jpg)"></div>
                                         <div class="pl-3">
                                             <p class="name">Angga Ari Wijaya</p>
                                             <span class="position">Groom</span>
@@ -314,7 +313,7 @@
                                         and really relieve my burden watching this moment happen.
                                     </p>
                                     <div class="d-flex align-items-center">
-                                        <div class="user-img" style="background-image: url(images/family/mukiyar.jpg)"></div>
+                                        <div class="user-img" style="background-image: url(build/images/family/mukiyar.jpg)"></div>
                                         <div class="pl-3">
                                             <p class="name">Mukiyar</p>
                                             <span class="position">Groom's Father</span>
@@ -331,7 +330,7 @@
                                         this day like a daydream she is getting married.
                                     </p>
                                     <div class="d-flex align-items-center">
-                                        <div class="user-img" style="background-image: url(images/family/mahmuda.jpg)"></div>
+                                        <div class="user-img" style="background-image: url(build/images/family/mahmuda.jpg)"></div>
                                         <div class="pl-3">
                                             <p class="name">Mahmudah</p>
                                             <span class="position">Bride's Mother</span>
@@ -358,7 +357,7 @@
                     <div class="carousel-friends owl-carousel ftco-owl ftco-animate">
                         <div class="item">
                             <div class="people text-center">
-                                <div class="img" style="background-image: url(images/family/masduki.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/family/masduki.jpg);"></div>
                                 <div class="text">
                                     <h3>Masduki Zakariyah</h3>
                                     <span>Bride's Father</span>
@@ -367,7 +366,7 @@
                         </div>
                         <div class="item">
                             <div class="people text-center">
-                                <div class="img" style="background-image: url(images/family/mahmuda.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/family/mahmuda.jpg);"></div>
                                 <div class="text">
                                     <h3>Mahmudah</h3>
                                     <span>Bride's Mother</span>
@@ -376,7 +375,7 @@
                         </div>
                         <div class="item">
                             <div class="people text-center">
-                                <div class="img" style="background-image: url(images/family/mukiyar.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/family/mukiyar.jpg);"></div>
                                 <div class="text">
                                     <h3>Mukiyar</h3>
                                     <span>Groom's Father</span>
@@ -385,7 +384,7 @@
                         </div>
                         <div class="item">
                             <div class="people text-center">
-                                <div class="img" style="background-image: url(images/family/muliana.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/family/muliana.jpg);"></div>
                                 <div class="text">
                                     <h3>Mulianah</h3>
                                     <span>Groom's Mother</span>
@@ -394,7 +393,7 @@
                         </div>
                         <div class="item">
                             <div class="people text-center">
-                                <div class="img" style="background-image: url(images/family/faridah.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/family/faridah.jpg);"></div>
                                 <div class="text">
                                     <h3>Faridah Lismawati</h3>
                                     <span>Bride's Young Sister</span>
@@ -403,7 +402,7 @@
                         </div>
                         <div class="item">
                             <div class="people text-center">
-                                <div class="img" style="background-image: url(images/family/linda.jpg);"></div>
+                                <div class="img" style="background-image: url(build/images/family/linda.jpg);"></div>
                                 <div class="text">
                                     <h3>Linda Ika Yuliana</h3>
                                     <span>Groom's Elder Sister</span>
@@ -425,7 +424,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 ftco-animate">
-                    <div class="place img" style="background-image: url(images/place-1.jpg);">
+                    <div class="place img" style="background-image: url(build/images/place-1.jpg);">
                         <div class="text text-center">
                             <span class="icon flaticon-wedding-kiss"></span>
                             <h3>Akad Nikah</h3>
@@ -439,7 +438,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="place img" style="background-image: url(images/place-2.jpg);">
+                    <div class="place img" style="background-image: url(build/images/place-2.jpg);">
                         <div class="text text-center">
                             <span class="icon flaticon-cake"></span>
                             <h3>The Ceremony</h3>
@@ -453,7 +452,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 ftco-animate">
-                    <div class="place img" style="background-image: url(images/place-3.jpg);">
+                    <div class="place img" style="background-image: url(build/images/place-3.jpg);">
                         <div class="text text-center">
                             <span class="icon flaticon-reception-bell"></span>
                             <h3>The Reception</h3>
@@ -479,6 +478,14 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-7">
+                    @if (session('status') && session('message'))
+                        <div class="alert alert-{{ session('status') }} alert-dismissible fade show ftco-animate" role="alert">
+                            {{ session('message') }}
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    @endif
                     <form action="/rsvp" method="post" class="rsvp-form ftco-animate">
                         <div class="alert alert-success alert-dismissible mb-4" role="alert" style="display: none">
                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -531,138 +538,138 @@
             </div>
             <div class="row">
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-1.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-1.jpg);">
+                    <a href="build/images/gallery/prewedding-1.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-1.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-2.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-2.jpg);">
+                    <a href="build/images/gallery/prewedding-2.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-2.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-3.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-3.jpg);">
+                    <a href="build/images/gallery/prewedding-3.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-3.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-4.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-4.jpg);">
+                    <a href="build/images/gallery/prewedding-4.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-4.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-5.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-5.jpg);">
+                    <a href="build/images/gallery/prewedding-5.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-5.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-6.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-6.jpg);">
+                    <a href="build/images/gallery/prewedding-6.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-6.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-7.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-7.jpg);">
+                    <a href="build/images/gallery/prewedding-7.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-7.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/prewedding-8.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/prewedding-8.jpg);">
+                    <a href="build/images/gallery/prewedding-8.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/prewedding-8.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-1.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-1.jpg);">
+                    <a href="build/images/gallery/gallery-1.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-1.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-2.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-2.jpg);">
+                    <a href="build/images/gallery/gallery-2.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-2.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-3.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-3.jpg);">
+                    <a href="build/images/gallery/gallery-3.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-3.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-4.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-4.jpg);">
+                    <a href="build/images/gallery/gallery-4.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-4.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-5.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-5.jpg);">
+                    <a href="build/images/gallery/gallery-5.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-5.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center"><span class="ion-ios-image"></span></div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-6.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-6.jpg);">
+                    <a href="build/images/gallery/gallery-6.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-6.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-7.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-7.jpg);">
+                    <a href="build/images/gallery/gallery-7.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-7.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-8.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-8.jpg);">
+                    <a href="build/images/gallery/gallery-8.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-8.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-9.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-9.jpg);">
+                    <a href="build/images/gallery/gallery-9.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-9.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-10.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-10.jpg);">
+                    <a href="build/images/gallery/gallery-10.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-10.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-11.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-11.jpg);">
+                    <a href="build/images/gallery/gallery-11.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-11.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-3 ftco-animate">
-                    <a href="images/gallery/gallery-12.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(images/gallery/gallery-12.jpg);">
+                    <a href="build/images/gallery/gallery-12.jpg" class="gallery img image-popup d-flex align-items-center justify-content-center" style="background-image: url(build/images/gallery/gallery-12.jpg);">
                         <div class="icon d-flex align-items-center justify-content-center">
                             <span class="ion-ios-image"></span>
                         </div>
@@ -770,7 +777,9 @@
         </svg>
     </div>
 
-    <script src="{{ url('/js/app.js') }}"></script>
+    <script src="/js/vendor.js"></script>
+    @vite(['resources/sass/app.scss'])
+
 </body>
 
 </html>

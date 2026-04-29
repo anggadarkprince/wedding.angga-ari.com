@@ -1,18 +1,10 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It is a breeze. Simply tell Lumen the URIs it should respond to
-| and give it the Closure to call when that URI is requested.
-|
-*/
+use App\Http\Controllers\RSVPController;
+use Illuminate\Support\Facades\Route;
 
-$router->get('/', function () use ($router) {
+Route::get('/', function () {
     return view('index');
 });
 
-$router->post('rsvp', ['uses' => 'RSVPController@store']);
+Route::post('rsvp', [RSVPController::class, 'store']);
